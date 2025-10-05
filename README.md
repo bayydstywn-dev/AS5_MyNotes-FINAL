@@ -93,7 +93,7 @@ My-Notes/
 ## 👨‍💻 Tentang Proyek
 
 📘 **Nama Proyek:** My Notes
-🏫 **Tujuan:** Tugas kuliah — pembelajaran konsep Intent & Activity
+🏫 **Tujuan:** Tugas Sekolah — Tugas Ujian Tengah Semester
 🧩 **Bahasa:** Java
 🧰 **IDE:** Android Studio
 📅 **Tahun:** 2025
