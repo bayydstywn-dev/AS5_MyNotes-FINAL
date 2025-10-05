@@ -1,4 +1,14 @@
-```markdown
+Perfect — isi README-nya udah keren banget, cuma ada **dua masalah kecil** yang bikin tampilannya di GitHub belum rapi:
+
+1. Ada **blok kode yang belum ditutup dengan benar** (` ```` ` muncul dua kali di tengah).
+2. Struktur folder sebaiknya dibungkus pakai satu blok kode ` ``` ` biar formatnya tetap rapi tapi tidak "rusak" ke bagian bawah.
+
+---
+
+Berikut versi yang **sudah diperbaiki dan siap langsung kamu paste ke GitHub** (tidak perlu tambahan tanda apa pun di atas atau bawahnya):
+
+---
+
 <h1 align="center">📝 My Notes</h1>
 
 <p align="center">
@@ -16,12 +26,12 @@
 
 ## ✨ Fitur Aplikasi
 
-✅ Login sederhana menggunakan username  
-✅ Navigasi antar halaman menggunakan **Intent**  
-✅ Menampilkan username di setiap halaman (Home, Notes, Profile)  
-✅ Membuat dan menghapus catatan dengan tampilan dinamis  
-✅ Desain layout simpel dan mudah dipahami  
-✅ Logout kembali ke halaman utama  
+✅ Login sederhana menggunakan username
+✅ Navigasi antar halaman menggunakan **Intent**
+✅ Menampilkan username di setiap halaman (Home, Notes, Profile)
+✅ Membuat dan menghapus catatan dengan tampilan dinamis
+✅ Desain layout simpel dan mudah dipahami
+✅ Logout kembali ke halaman utama
 
 ---
 
@@ -29,8 +39,8 @@
 
 > Tambahkan screenshot aplikasi kamu di sini biar makin keren 😄
 
-| Halaman Login | Halaman Home | Halaman Notes | Halaman Profile |
-|:--------------:|:-------------:|:--------------:|:----------------:|
+|                          Halaman Login                          |                         Halaman Home                        |                         Halaman Notes                         |                          Halaman Profile                          |
+| :-------------------------------------------------------------: | :---------------------------------------------------------: | :-----------------------------------------------------------: | :---------------------------------------------------------------: |
 | ![Login](https://via.placeholder.com/200x400?text=Login+Screen) | ![Home](https://via.placeholder.com/200x400?text=Home+Page) | ![Notes](https://via.placeholder.com/200x400?text=Notes+Page) | ![Profile](https://via.placeholder.com/200x400?text=Profile+Page) |
 
 ---
@@ -38,7 +48,6 @@
 ## ⚙️ Struktur Proyek
 
 ```
-
 My-Notes/
 ├── app/
 │   ├── src/
@@ -52,17 +61,17 @@ My-Notes/
 │   └── build.gradle
 ├── .gitignore
 └── README.md
-
-````
+```
 
 ---
 
 ## 🚀 Cara Menjalankan Aplikasi
 
 1. Clone repository ini:
+
    ```bash
    git clone https://github.com/Hanung-Satya/My-Notes.git
-````
+   ```
 
 2. Buka di Android Studio
    `File → Open → pilih folder My-Notes`
@@ -112,6 +121,5 @@ Silakan gunakan atau modifikasi untuk keperluan edukasi.
 <p align="center">
   Made with ❤️ by <a href="https://github.com/Hanung-Satya">Hanung Satya</a>
 </p>
-```
 
 ---
