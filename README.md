@@ -28,8 +28,6 @@
 
 ## 📲 Tampilan Antarmuka (UI)
 
-> Tambahkan screenshot aplikasi kamu di sini biar makin keren 😄
-
 |                          Halaman Login                          |                         Halaman Home                        |                         Halaman Notes                         |                          Halaman Profile                          |
 | :-------------------------------------------------------------: | :---------------------------------------------------------: | :-----------------------------------------------------------: | :---------------------------------------------------------------: |
 | ![Login](https://via.placeholder.com/200x400?text=Login+Screen) | ![Home](https://via.placeholder.com/200x400?text=Home+Page) | ![Notes](https://via.placeholder.com/200x400?text=Notes+Page) | ![Profile](https://via.placeholder.com/200x400?text=Profile+Page) |
