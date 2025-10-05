@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/applogo"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_black"
+        android:gravity="center"
+        android:text="WELCOME"
+        android:textColor="@color/primaryColor"
+        android:textAlignment="center"
+        android:textSize="55sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="to MyNotes"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="20sp"
+        android:textColor="@color/primaryColor"
+        />
+
+    <FrameLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginVertical="30dp">
+
+        <FrameLayout
+            android:layout_width="350dp"
+            android:layout_height="270dp"
+            android:background="@drawable/bg_frame" />
+
+        <TextView
+            android:id="@+id/TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please Login"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="-100dp"
+            android:textSize="25sp"/>
+
+        <ImageView
+            android:id="@+id/logo_usn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="4dp"
+            android:src="@drawable/people"
+            app:tint="@color/primaryColor"
+            android:background="@drawable/bg_edittext_login"
+            android:layout_marginTop="72dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="15dp"
+
+            />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="260dp"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:hint="Username"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-40dp"
+            android:textSize="15sp"
+            android:textColorHint="@color/primaryColor"
+            android:background="@drawable/bg_edittext_login"
+            android:fontFamily="@font/poppins_medium"
+            />
+
+        <ImageView
+            android:id="@+id/logo_pw"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="4dp"
+            android:src="@drawable/passwordlogo"
+            app:tint="@color/primaryColor"
+            android:background="@drawable/bg_edittext_login"
+            android:layout_marginTop="131dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="15dp"
+            />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="260dp"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:hint="Password"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@color/primaryColor"
+            android:textSize="15sp"
+            android:background="@drawable/bg_edittext_login"
+            />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="310dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="90dp"
+            android:backgroundTint="@color/white"
+            android:text="LOGIN"
+            android:textColor="@color/primaryColor"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:fontFamily="@font/poppins_bold"
+            app:cornerRadius = "10dp"
+            android:onClick="loginEvent"
+            />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:text="© 2025"
+        android:textSize="15sp" />
+
+
+</LinearLayout>
+

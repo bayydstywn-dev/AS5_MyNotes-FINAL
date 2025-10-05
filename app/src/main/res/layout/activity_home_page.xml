@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/ic_user"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/people"
+        card_view:tint="#5A0ABF"
+        android:layout_alignParentStart="true"
+        android:contentDescription="User Icon" />
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello,"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#5A0ABF"
+        android:layout_alignTop="@id/ic_user"
+        android:layout_toEndOf="@id/ic_user"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#5A0ABF"
+        android:layout_below="@id/hello"
+        android:layout_alignStart="@id/hello" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ic_user"
+        android:layout_marginTop="40dp"
+        card_view:cardCornerRadius="16dp"
+        android:backgroundTint="#F8C8F8"
+        card_view:cardElevation="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Tap the + button below to create your first note and keep everything organized in one place."
+            android:textColor="#5A0ABF"
+            android:textSize="14sp" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_ready"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/card_desc"
+        android:layout_marginTop="28dp"
+        android:text="Ready to Write ?"
+        android:textColor="#5A0ABF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/createNoteWrapper"
+        android:layout_width="394dp"
+        android:layout_height="85dp"
+        android:layout_below="@id/tv_ready"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="24dp">
+
+
+        <Button
+            android:id="@+id/createNote"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:text="+ New Note"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_nav"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_navbar"
+        android:gravity="center"
+        android:paddingHorizontal="24dp">
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="12dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/home"
+            android:contentDescription="Home"
+            card_view:tint="#5A0ABF"
+            android:onClick="goToHomePage"
+            />
+
+        <ImageView
+            android:id="@+id/newNote"
+            android:padding="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:tint="@color/white"
+            android:background="@drawable/bg_newnotenav"
+            android:src="@drawable/plus"
+            android:onClick="createNewNoteEvent"
+            />
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="6dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/people"
+            android:contentDescription="User"
+            card_view:tint="#5A0ABF"
+            android:onClick="goToProfilePage"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
