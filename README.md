@@ -1,12 +1,3 @@
-Perfect — isi README-nya udah keren banget, cuma ada **dua masalah kecil** yang bikin tampilannya di GitHub belum rapi:
-
-1. Ada **blok kode yang belum ditutup dengan benar** (` ```` ` muncul dua kali di tengah).
-2. Struktur folder sebaiknya dibungkus pakai satu blok kode ` ``` ` biar formatnya tetap rapi tapi tidak "rusak" ke bagian bawah.
-
----
-
-Berikut versi yang **sudah diperbaiki dan siap langsung kamu paste ke GitHub** (tidak perlu tambahan tanda apa pun di atas atau bawahnya):
-
 ---
 
 <h1 align="center">📝 My Notes</h1>
