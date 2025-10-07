@@ -34,24 +34,6 @@
 
 ---
 
-## ⚙️ Struktur Proyek
-My-Notes/
-├── app/
-│ ├── src/
-│ │ ├── main/
-│ │ │ ├── java/com/mynotes/
-│ │ │ │ ├── MainActivity.java
-│ │ │ │ ├── HomePage.java
-│ │ │ │ ├── NotePages.java
-│ │ │ │ └── Profile.java
-│ │ │ └── res/ (layout, drawable, values)
-│ └── build.gradle
-├── .gitignore
-└── README.md
-
-
----
-
 ## 🚀 Cara Menjalankan Aplikasi
 
 1. Clone repository ini:
@@ -79,9 +61,13 @@ My-Notes/
 📅 Tahun: 2025
 
 👥 Tim Pengembang:
+
 Bayu Adi Setyawan
+
 Daniswara Nayaka Indrastata
+
 Hanung Satya Adi Wicaksono
+
 Pracanda Arga Sava Nayottama
 
 💬 Lisensi
