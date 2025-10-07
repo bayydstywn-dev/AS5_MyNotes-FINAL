@@ -108,7 +108,7 @@ Silakan gunakan atau modifikasi untuk keperluan edukasi.
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/Hanung-Satya">Hanung Satya</a>
+  Made with ❤️ by <a href="https://github.com/bayydstywn-dev">Bayu Adi and Team</a>
 </p>
 
 ---
