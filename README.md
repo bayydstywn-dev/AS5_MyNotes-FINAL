@@ -3,8 +3,8 @@
 <h1 align="center">📝 My Notes</h1>
 
 <p align="center">
-  <b>Simple Android Notes App built with Java & Android Studio</b><br>
-  📱 A lightweight app to create, view, and delete notes — with username passing across multiple activities.
+  <b>Aplikasi Catatan berbasis Android dengan fitur login dan hapus catatan</b><br>
+  📱 Dibuat menggunakan <b>Java</b> dan <b>Android Studio</b> — sederhana namun fungsional.
 </p>
 
 <p align="center">
@@ -17,12 +17,12 @@
 
 ## ✨ Fitur Aplikasi
 
-✅ Login sederhana menggunakan username
-✅ Navigasi antar halaman menggunakan **Intent**
-✅ Menampilkan username di setiap halaman (Home, Notes, Profile)
-✅ Membuat dan menghapus catatan dengan tampilan dinamis
-✅ Desain layout simpel dan mudah dipahami
-✅ Logout kembali ke halaman utama
+✅ Login sederhana menggunakan username  
+✅ Navigasi antar halaman menggunakan **Intent**  
+✅ Menampilkan username di setiap halaman (Home, Notes, Profile)  
+✅ Membuat dan menghapus catatan secara dinamis  
+✅ Desain layout simpel dan mudah digunakan  
+✅ Logout kembali ke halaman utama  
 
 ---
 
@@ -35,22 +35,20 @@
 ---
 
 ## ⚙️ Struktur Proyek
-
-```
 My-Notes/
 ├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/hann/mynotes_android/
-│   │   │   │   ├── MainActivity.java
-│   │   │   │   ├── HomePage.java
-│   │   │   │   ├── NotePages.java
-│   │   │   │   └── Profile.java
-│   │   │   └── res/ (layout, drawable, values)
-│   └── build.gradle
+│ ├── src/
+│ │ ├── main/
+│ │ │ ├── java/com/mynotes/
+│ │ │ │ ├── MainActivity.java
+│ │ │ │ ├── HomePage.java
+│ │ │ │ ├── NotePages.java
+│ │ │ │ └── Profile.java
+│ │ │ └── res/ (layout, drawable, values)
+│ └── build.gradle
 ├── .gitignore
 └── README.md
-```
+
 
 ---
 
@@ -59,18 +57,11 @@ My-Notes/
 1. Clone repository ini:
 
    ```bash
-   git clone https://github.com/Hanung-Satya/My-Notes.git
-   ```
+   git clone https://github.com/USERNAME/My-Notes.git
+2. Buka di Android Studio = File → Open → pilih folder My-Notes
+3. Jalankan di emulator atau perangkat Android nyata
 
-2. Buka di Android Studio
-   `File → Open → pilih folder My-Notes`
-
-3. Jalankan di **emulator** atau **perangkat Android nyata**
-
----
-
-## 🧠 Konsep yang Dipelajari
-
+🧠 Konsep yang Dipelajari
 | Konsep                           | Penjelasan                                                |
 | :------------------------------- | :-------------------------------------------------------- |
 | **Intent & putExtra()**          | Mengirim data (username) antar Activity                   |
@@ -79,36 +70,23 @@ My-Notes/
 | **Event Handling (onClick)**     | Menangani tombol login, tambah catatan, dan hapus catatan |
 | **Activity Navigation**          | Perpindahan halaman antar Activity dengan Intent          |
 
----
+👨‍💻 Tentang Proyek
 
-## 🔮 Pengembangan Selanjutnya
+📘 Nama Proyek: My Notes
+🏫 Tujuan: Tugas Sekolah — Tugas Ujian Tengah Semester
+🧩 Bahasa: Java
+🧰 IDE: Android Studio
+📅 Tahun: 2025
 
-💡 Menyimpan catatan menggunakan **SQLite / Room Database**
-💡 Menambahkan fitur **Edit Note**
-💡 Menambahkan autentikasi dengan password
-💡 Menambahkan tampilan tema gelap (Dark Mode)
+👥 Tim Pengembang:
+Bayu Adi Setyawan
+Daniswara Nayaka Indrastata
+Hanung Satya Adi Wicaksono
+Pracanda Arga Sava Nayottama
 
----
-
-## 👨‍💻 Tentang Proyek
-
-📘 **Nama Proyek:** My Notes
-🏫 **Tujuan:** Tugas Sekolah — Tugas Ujian Tengah Semester
-🧩 **Bahasa:** Java
-🧰 **IDE:** Android Studio
-📅 **Tahun:** 2025
-
----
-
-## 💬 Lisensi
+💬 Lisensi
 
 Proyek ini dibuat untuk keperluan pembelajaran.
 Silakan gunakan atau modifikasi untuk keperluan edukasi.
 
----
-
-<p align="center">
-  Made with ❤️ by <a href="https://github.com/bayydstywn-dev">Bayu Adi and Team</a>
-</p>
-
----
+<p align="center"> Made with ❤️ by <a href="https://github.com/bayydstywn-dev">Bayu Adi Setyawan</a> & Team </p>
